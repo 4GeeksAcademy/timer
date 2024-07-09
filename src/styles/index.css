@@ -10,3 +10,30 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.timerContainer {
+  background-color: black;
+  color: white;
+  width: 100%; /* Adjust width as needed */
+  height: 150px; /* Adjust height as needed */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto; /* Center the timer container */
+}
+
+.timer {
+  text-align: center;
+}
+
+.timer h2 {
+  font-size: 156px; 
+  font-weight: bold;
+}
+#clock{
+  margin-bottom: 33px;
+  padding: 10px;
+
+}
+.timer button{
+  margin-right: 30%;
+}
